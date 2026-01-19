@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GO | Growth Operator - Offres</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --blue:#1a73e8;
+      --blue-dark:#004fc4;
+      --pink:#d61f69;
+      --bg1:#f0f4ff;
+      --bg2:#ffffff;
+      --card:#f9fbff;
+      --line:#e0e7ff;
+      --text:#222;
+      --muted:#555;
+      --wa:#25d366;
+      --wa-dark:#1ebc59;
+    }
+    *{box-sizing:border-box}
+    body{
+      font-family:'Inter',sans-serif;
+      background:linear-gradient(120deg,var(--bg1),var(--bg2));
+      color:var(--text);
+      margin:0;
+      padding:0;
+    }
+    .container{
+      max-width:560px;
+      margin:20px auto;
+      padding:20px;
+      background:#fff;
+      border-radius:16px;
+      box-shadow:0 10px 24px rgba(0,0,0,.10);
+    }
+    h1{
+      text-align:center;
+      color:#005eff;
+      font-size:2rem;
+      margin:6px 0 6px;
+      letter-spacing:-0.02em;
+    }
+    .subtitle{
+      text-align:center;
+      font-size:1rem;
+      margin:0 0 26px;
+      color:var(--muted);
+      line-height:1.35;
+    }
+
+    .offer{
+      border:2px solid var(--line);
+      border-left:6px solid var(--blue);
+      border-radius:14px;
+      padding:18px 18px 16px;
+      margin-bottom:16px;
+      background:var(--card);
+      transition:transform .15s ease, box-shadow .15s ease;
+    }
+    .offer:hover{
+      transform:translateY(-1px);
+      box-shadow:0 10px 18px rgba(26,115,232,.10);
+    }
+    .offer h2{
+      font-size:1.15rem;
+      margin:0 0 8px;
+      color:#141414;
+      letter-spacing:-0.01em;
+      line-height:1.25;
+    }
+    .offer p{
+      font-size:.98rem;
+      margin:0 0 12px;
+      color:#333;
+      line-height:1.4;
+    }
+    .badge{
+      color:var(--pink);
+      font-weight:700;
+      white-space:nowrap;
+    }
+
+    .btn{
+      display:inline-block;
+      background:var(--blue);
+      color:#fff;
+      text-decoration:none;
+      padding:10px 14px;
+      border-radius:10px;
+      font-size:.92rem;
+      font-weight:600;
+      margin-right:10px;
+      margin-bottom:8px;
+      transition:background .15s ease, transform .05s ease;
+    }
+    .btn:hover{background:var(--blue-dark)}
+    .btn:active{transform:scale(.99)}
+
+    .btn-secondary{
+      background:#eef3ff;
+      color:#153e8a;
+      border:1px solid #d7e3ff;
+    }
+    .btn-secondary:hover{background:#e3edff}
+.contact{
+      text-align:center;
+      margin-top:18px;
+      background:#f0f4ff;
+      padding:18px;
+      border-radius:14px;
+      border:1px solid #dfe8ff;
+    }
+    .contact p{
+      margin:0 0 10px;
+      color:#1a1a1a;
+      line-height:1.35;
+    }
+    .wa{
+      display:inline-block;
+      background:var(--wa);
+      color:#fff;
+      text-decoration:none;
+      padding:11px 18px;
+      border-radius:12px;
+      font-weight:700;
+      font-size:1rem;
+      transition:background .15s ease;
+    }
+    .wa:hover{background:var(--wa-dark)}
+
+    footer{
+      text-align:center;
+      margin-top:26px;
+      font-size:.82rem;
+      color:#9a9a9a;
+    }
+  
+    details.details-box{
+      margin-top:12px;
+      background:#eef3ff;
+      border:1px solid #d7e3ff;
+      border-radius:12px;
+      padding:0;
+      overflow:hidden;
+    }
+    details.details-box summary{
+      list-style:none;
+      cursor:pointer;
+      padding:10px 14px;
+      font-weight:700;
+      color:#153e8a;
+      background:#eef3ff;
+      user-select:none;
+    }
+    details.details-box summary::-webkit-details-marker{display:none;}
+    details.details-box summary:after{
+      content:"▼";
+      float:right;
+      opacity:.7;
+      font-size:.85rem;
+      margin-top:2px;
+    }
+    details.details-box[open] summary:after{content:"▲";}
+    .details-content{
+      padding:12px 14px 14px;
+      font-size:.92rem;
+      color:#1b1b1b;
+      line-height:1.45;
+      border-top:1px solid #d7e3ff;
+      background:#eef3ff;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>GO | Growth Operator</h1>
+    <p class="subtitle">Des offres simples, du concret, et surtout : plus de clients + moins de perte de temps 🚀</p>
+
+    <!-- 1) QR CODE -->
+    <div class="offer">
+      <h2>🔗 QR Code intelligent <span class="badge">à partir de 9,99 € / mois</span></h2>
+      <p>Un QR code modifiable qui renvoie où tu veux : Insta, WhatsApp, avis Google, menu, page de vente…</p>
+      <a class="btn" href="https://wa.me/33604653178?text=Salut%20!%20Je%20veux%20l%E2%80%99offre%20QR%20Code%20intelligent%20(%C3%A0%20partir%20de%209%2C99%E2%82%AC%2Fmois).%20Tu%20peux%20m%E2%80%99expliquer%20les%20formules%20%3F" target="_blank">Commander</a>
+      <details class="details-box">
+  <summary>En savoir plus</summary>
+  <div class="details-content">
+    <b>Ce que ça t’apporte :</b><br>
+        • Tu évites les erreurs (mauvais lien / mauvais support).<br>
+        • Tu peux changer la destination en 10 secondes (sans réimprimer).<br>
+        • Tu gagnes du temps sur la com (plus de "tu as le lien ?").<br><br>
+        <b>Concrètement :</b><br>
+        • Un QR code modifiable + une destination au choix (Insta, WhatsApp, avis, menu, etc.).<br>
+        • Idéal pour cartes, flyers, vitrines, véhicules, events.<br><br>
+        <b>Formules :</b><br>
+        • 9,99 € / mois : QR simple<br>
+        • 14,99 € / mois : QR + stats (clics, scans…)<br>
+        • 37,50 € à vie : sans abonnement
+  </div>
+</details>
+    </div>
+
+    <!-- 2) DM AUTO -->
+    <div class="offer">
+      <h2>🤖 DM automatisés Instagram & WhatsApp <span class="badge">à partir de 19,90 € / mois</span></h2>
+      <p>Réponses auto quand quelqu’un t’écrit un mot-clé (RDV, PDF, TARIFS…). Disponible sur Instagram <b>et</b> WhatsApp.</p>
+      <a class="btn" href="https://wa.me/33604653178?text=Salut%20!%20Je%20veux%20mettre%20en%20place%20les%20DM%20automatis%C3%A9s%20Instagram%20%26%20WhatsApp%20(%C3%A0%20partir%20de%2019%2C90%E2%82%AC%2Fmois).%20On%20d%C3%A9marre%20comment%20%3F" target="_blank">Commander</a>
+      <details class="details-box">
+  <summary>En savoir plus</summary>
+  <div class="details-content">
+    <b>Ce que ça t’apporte :</b><br>
+        • Tu réponds 24/7 sans être sur le téléphone.<br>
+        • Tu évites les oublis et les réponses différentes selon l’humeur.<br>
+        • Tu récupères plus de leads (et tu peux gagner 3–4h/semaine).<br><br>
+        <b>Concrètement :</b><br>
+        • Réponses instantanées avec mots-clés (RDV, PDF, PRIX, etc.).<br>
+        • Envoi auto de lien : Calendly, PDF, page de paiement, Link-in-bio…<br><br>
+        <b>Formules :</b><br>
+        • 19,90 € / mois : 3 mots-clés<br>
+        • 29,90 € / mois : jusqu’à 10 mots-clés
+  </div>
+</details>
+    </div>
+
+    <!-- 2bis) PRISE DE COMMANDE AUTO -->
+    <div class="offer">
+      <h2>🛒 Prise de commande auto <span class="badge">49,90 € / mois</span></h2>
+      <p>Les clients commandent par message. Le système répond, pose les bonnes questions et te sort une commande propre.</p>
+      <a class="btn" href="https://wa.me/33604653178?text=Salut%20!%20Je%20veux%20l%E2%80%99offre%20Prise%20de%20commande%20auto%20(49%2C90%E2%82%AC%2Fmois)%20sur%20Instagram%20%26%20WhatsApp.%20On%20peut%20mettre%20quoi%20comme%20questions%20%3F" target="_blank">Commander</a>
+      <details class="details-box">
+  <summary>En savoir plus</summary>
+  <div class="details-content">
+    <b>Ce que ça t’apporte :</b><br>
+        • Tu évites les erreurs de commande (quantité, produit, adresse…).<br>
+        • Tu gagnes 3–4h/semaine (moins d’allers-retours en messages).<br>
+        • Tu rends la commande simple → plus de ventes, moins d’abandon.<br><br>
+        <b>Concrètement :</b><br>
+        • Déclencheurs par mots-clés : COMMANDE, PRIX, MENU, LIVRAISON…<br>
+        • Questions auto : produit, quantité, options, adresse, créneau…<br>
+        • Envoi du récap + (option) lien de paiement / confirmation.<br>
+        • Export / message de récap (commande claire et lisible).
+  </div>
+</details>
+    </div>
+
+    <!-- 3) LINK IN BIO -->
+    <div class="offer">
+      <h2>🔗 Page Link in Bio <span class="badge">à partir de 47 €</span></h2>
+      <p>Une page unique qui centralise tout : WhatsApp, RDV, paiements, offres, contenus… (parfaite pour Insta/TikTok).</p>
+      <a class="btn" href="https://wa.me/33604653178?text=Salut%20!%20Je%20veux%20une%20page%20Link%20in%20Bio%20(%C3%A0%20partir%20de%2047%E2%82%AC).%20Tu%20peux%20me%20dire%20ce%20qu%E2%80%99il%20te%20faut%20%3F" target="_blank">Commander</a>
+      <details class="details-box">
+  <summary>En savoir plus</summary>
+  <div class="details-content">
+    <b>Ce que ça t’apporte :</b><br>
+        • Plus de clics (liens clairs) → plus de RDV / ventes.<br>
+        • Moins de questions en DM (tout est au même endroit).<br>
+        • Une image plus pro (ça rassure).<br><br>
+        <b>Concrètement :</b><br>
+        • Design propre (mobile), adapté à ta niche.<br>
+        • Boutons : WhatsApp, Calendly, paiement, PDF, offres…<br>
+        • Parfait pour ta bio + dans tes QR codes.
+  </div>
+</details>
+    </div>
+
+    <!-- 4) RDV -->
+    <div class="offer">
+      <h2>📅 Prise de rendez-vous automatique <span class="badge">à partir de 29,90 € / mois</span></h2>
+      <p>Les gens réservent seuls sur ton agenda. Zéro échange inutile, tu ne perds plus de temps.</p>
+      <a class="btn" href="https://wa.me/33604653178?text=Salut%20!%20Je%20veux%20mettre%20un%20syst%C3%A8me%20de%20RDV%20automatique%20(%C3%A0%20partir%20de%2029%2C90%E2%82%AC%2Fmois).%20On%20fait%20%C3%A7a%20avec%20Calendly%20%3F" target="_blank">Créer mon calendrier</a>
+      <details class="details-box">
+  <summary>En savoir plus</summary>
+  <div class="details-content">
+    <b>Ce que ça t’apporte :</b><br>
+        • Tu évites les "t’es dispo quand ?" en boucle.<br>
+        • Moins de no-show grâce aux rappels.<br>
+        • Tu récupères des RDV même quand tu ne réponds pas (gain de temps énorme).<br><br>
+        <b>Concrètement :</b><br>
+        • Calendly configuré (dispos, horaires, jours off).<br>
+        • Rappels automatiques (email/notifications).<br>
+        • Lien partageable : bio, QR, WhatsApp, DM auto.<br><br>
+        <b>Formules :</b><br>
+        • 29,90 € / mois : 1 type de RDV<br>
+        • 49,90 € / mois : RDV multiples + paiement
+  </div>
+</details>
+    </div>
+
+    <!-- 5) COACHING GRATUIT -->
+    <div class="offer">
+      <h2>🧠 Coaching personnalisé <span class="badge">premier appel gratuit</span></h2>
+      <p>On fait le point, on clarifie tes priorités et tu repars avec un plan d’action simple (même si on ne bosse pas ensemble).</p>
+      <a class="btn" href="https://calendly.com/growth-operator-off" target="_blank">Réserver mon appel</a>
+      <details class="details-box">
+  <summary>En savoir plus</summary>
+  <div class="details-content">
+    <b>Ce que ça t’apporte :</b><br>
+        • Tu sais quoi faire en premier (et quoi arrêter).<br>
+        • Tu évites les erreurs qui coûtent du temps / de l’argent.<br>
+        • Tu repars avec un plan clair, actionnable (souvent 2–3 semaines d’avance).<br><br>
+        <b>Pendant l’appel :</b><br>
+        • Diagnostic rapide (offre, contenu, tunnel, blocages).<br>
+        • Priorités + plan d’action.<br>
+        • Recommandations concrètes.
+  </div>
+</details>
+    </div>
+
+    <!-- 6) FORMATION GRATUIT -->
+    <div class="offer">
+      <h2>🎓 Créer une formation professionnelle <span class="badge">gratuit</span></h2>
+      <p>Tu as une expertise ? On la transforme en formation claire, structurée et vendable (sans te noyer dans la technique).</p>
+      <a class="btn" href="https://calendly.com/growth-operator-off" target="_blank">Réserver mon appel</a>
+      <details class="details-box">
+  <summary>En savoir plus</summary>
+  <div class="details-content">
+    <b>Ce que ça t’apporte :</b><br>
+        • Tu transformes ton savoir en produit vendable (sans te disperser).<br>
+        • Tu évites une formation "trop longue" ou "pas claire".<br>
+        • Tu avances plus vite (structure + plan + next steps).<br><br>
+        <b>On pose les bases :</b><br>
+        • Thème + promesse + résultat (simple et clair).<br>
+        • Plan (modules, progression, livrables).<br>
+        • Format conseillé (vidéo, PDF, coaching, hybride).<br>
+        • Stratégie de vente simple (page, prix, offre).
+  </div>
+</details>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact">
+      <p><b>💬 Des questions ou besoin d’aide ?</b></p>
+      <p>Écris-moi directement sur WhatsApp, je te réponds.</p>
+      <a class="wa" href="https://wa.me/33604653178?text=Salut%20!%20J%E2%80%99ai%20une%20question%20sur%20vos%20offres%20GO.%20Voici%20mon%20besoin%20%3A%20" target="_blank">Me contacter sur WhatsApp</a>
+    </div>
+
+    <footer>
+      © 2026 GO | Growth Operator
+    </footer>
+  </div>
+</body>
+</html>
